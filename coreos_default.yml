@@ -2,7 +2,7 @@
 
 users:
   - name: "core"
-    passwd: "$1$512$SA0Xrmx5QTD17Xvj3Xxdg/"
+    passwd: "$1$Ar4bFCtK$Zkjqnmeo08xGC4YMw6aFI."
     groups:
       - "sudo"
       - "docker"
