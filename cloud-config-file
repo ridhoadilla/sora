@@ -1,0 +1,13 @@
+#cloud-config
+
+users:
+  - name: "ridho"
+    passwd: "$6$rounds=4096$gpCFGCnEI9RTLh6$ZjQ/fmab8P1Z4qExXKYJyi9AVf2CLuW6GKGmmSuH7lQoWe.bdHhrLni3jRFQAEIU6gWNly38YIcCCctu8aOM90"
+    groups:
+      - "sudo"
+      - "docker"
+  - name: "core"
+    passwd: "$6$rounds=4096$E0bTb7K.$Ffg7vNz.e5xzJELHHjhhZ1JEY/SG7tjA4jwY0hUAreYNuse/bmyvYc0oHXYByECv8cVXNP4r.CKv6wYVRSGNT."
+    groups:
+      - "sudo"
+      - "docker"
